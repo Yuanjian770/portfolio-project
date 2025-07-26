@@ -17,7 +17,7 @@ def get_db():
 
 @app.get("/")
 async def root():
-    return {'message': 'API health check successful!'}
+    return {'message': 'This is an API health heck: status succesful!'}
 
 @app.get('/v0/players/', response_model=list[schemas.Player])
 def read_players(skip: int = 0,
