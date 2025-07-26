@@ -7,7 +7,7 @@ from database import SessionLocal
 
 app = FastAPI()
 
-# Dependency
+# Dependency  dfdfd
 def get_db():
     db = SessionLocal()
     try:
